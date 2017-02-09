@@ -31,8 +31,7 @@ name="myimages" 就是告诉FileProvider 用 myimages 添加进URIs 内容字段
 在这个文件中，为每个目录添加一个XML元素指定目录。
 
 |标签|对应方法|基础路路径|
-| ---- | :---: | ---|
-|1|2|3|
+| ---- | :---: | --- |
 | files-path | getFilesDir | /data/data/vip.kassadin.camerademo/files |
 | cache-path | getCacheDir | /data/data/vip.kassadin.camerademo/cache |
 | external-path | Environment.getExternalStorageDirectory|/storage/emulated/0 |
