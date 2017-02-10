@@ -58,3 +58,7 @@ content://vip.kassadin.camerademo.fileprovider/my_images/default_image.jpg
 [Android7.0须知--应用间共享文件（FileProvider）](http://www.jianshu.com/p/3f9e3fc38eae)
 
 [FileProvider无法获取外置SD卡问题解决方案 | Failed to find configured root that contains](http://www.jianshu.com/p/121bbb07cb07)
+
+[Android爬坑之旅之FileProvider](http://blog.csdn.net/cjpx00008/article/details/54293571)
+
+[详细解释如何通过Android自带的方式来实现图片的裁剪——原理分析+解决方案](http://www.cnblogs.com/tianzhijiexian/p/4059006.html)
