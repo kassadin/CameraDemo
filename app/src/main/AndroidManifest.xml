@@ -3,6 +3,9 @@
           xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
 
     <application
         android:allowBackup="true"
@@ -29,7 +32,10 @@
         </provider>
 
         <activity android:name=".SurfaceViewActivity">
-
+        </activity>
+        <activity android:name=".CameraActivity">
+        </activity>
+        <activity android:name=".CameraResultActivity">
         </activity>
     </application>
 

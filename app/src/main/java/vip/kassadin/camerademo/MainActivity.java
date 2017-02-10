@@ -45,6 +45,10 @@ public class MainActivity extends AppCompatActivity {
         SurfaceViewActivity.start(this);
     }
 
+    public void cameraActivity(View view) {
+        CameraActivity.start(this);
+    }
+
     private void dispatchTakePictureIntentForThumbnail() {
         Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         if (takePictureIntent.resolveActivity(getPackageManager()) != null) {

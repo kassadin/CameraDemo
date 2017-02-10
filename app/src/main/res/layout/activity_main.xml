@@ -27,6 +27,12 @@
         android:onClick="surfaceDemo"
         android:layout_height="wrap_content" />
 
+    <Button
+        android:text="CameraActivity"
+        android:layout_width="wrap_content"
+        android:onClick="cameraActivity"
+        android:layout_height="wrap_content" />
+
 
     <ImageView
         android:id="@+id/image_result"
