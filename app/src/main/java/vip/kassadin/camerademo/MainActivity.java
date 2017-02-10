@@ -41,6 +41,10 @@ public class MainActivity extends AppCompatActivity {
         dispatchTakePictureIntentForFullImage();
     }
 
+    public void surfaceDemo(View view) {
+        SurfaceViewActivity.start(this);
+    }
+
     private void dispatchTakePictureIntentForThumbnail() {
         Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
