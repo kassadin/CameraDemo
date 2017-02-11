@@ -150,4 +150,7 @@ public class MainActivity extends AppCompatActivity {
         imageResult.setImageBitmap(bitmap);
     }
 
+    public void cameraInfoActivity(View view) {
+        startActivity(new Intent(this, CameraInfoActivity.class));
+    }
 }
